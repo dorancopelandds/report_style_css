@@ -199,3 +199,18 @@
     font-family: Open Sans,Helvetica,Arial,sans-serif;
     margin: 4px;
   }
+
+    /* Center-align all table headers */
+    .rt-table th, 
+    .rt-th, 
+    .rt-header-cell {
+      text-align: center !important;
+      justify-content: center !important; /* Fixes alignment for flexbox layouts */
+    }
+    
+    /* Center-align all table body data cells */
+    .rt-table td, 
+    .rt-td, 
+    .rt-cell {
+      text-align: center !important;
+    }
