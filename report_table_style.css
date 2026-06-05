@@ -138,3 +138,21 @@ th.headerCell {
   padding: 5px;
   box-sizing: border-box;
 }
+
+/* Center all table headers */
+th, 
+th[class*="rt-align"] {
+    text-align: center !important;
+}
+
+/* Center all data rows */
+td, 
+td[class*="rt-align"] {
+    text-align: center !important;
+}
+
+/* Ensure column subheaders and measure groups are also centered */
+.rt-column-group-header,
+.rt-measure-group-header {
+    text-align: center !important;
+}
