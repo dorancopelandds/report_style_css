@@ -1,14 +1,17 @@
-/* Center-align all table headers */
-.rt-table th, 
-.rt-th, 
-.rt-header-cell {
-  text-align: center !important;
-  justify-content: center !important; /* Fixes alignment for flexbox layouts */
+/* Center all table headers */
+th, 
+th[class*="rt-align"] {
+    text-align: center !important;
 }
 
-/* Center-align all table body data cells */
-.rt-table td, 
-.rt-td, 
-.rt-cell {
-  text-align: center !important;
+/* Center all data rows */
+td, 
+td[class*="rt-align"] {
+    text-align: center !important;
+}
+
+/* Ensure column subheaders and measure groups are also centered */
+.rt-column-group-header,
+.rt-measure-group-header {
+    text-align: center !important;
 }
