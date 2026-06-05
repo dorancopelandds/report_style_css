@@ -160,11 +160,11 @@
   }
   
   .nonNumeric {
-    text-align: left;
+    text-align: center;
   }
   
   .numeric {
-    text-align: right;
+    text-align: center;
   }
   
   .negative {
